@@ -1,6 +1,5 @@
 package com.myproject;
 //this is the subclass
-//edit the templete of the past project
 public class rocky_planet extends planet {
     private int distance_from_earth;
     private boolean life;
@@ -10,7 +9,7 @@ public class rocky_planet extends planet {
         this.distance_from_earth = distance_from_earth;
         this.life = life;
     }
-//this is under construction
+//this is under construction 👷‍♂️
     public void viewRocky_Planet_Life() {
         System.out.println("There is life on" + getName + " " + life());
         System.out.println(getName() + " is " + getDistance_from_sun() + " AU");
